@@ -90,6 +90,7 @@
             btnTarget.TabIndex = 4;
             btnTarget.Text = "Target";
             btnTarget.UseVisualStyleBackColor = true;
+            btnTarget.Click += this.BtnTargetClickEH;
             // 
             // FrmStopwatch
             // 
